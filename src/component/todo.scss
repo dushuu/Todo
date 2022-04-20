@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 420px;
+  min-height: 600px;
+  background: #f7f9ff;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  border-radius: 60px;
+
+  h1 {
+     margin: 32px 0;
+        color: #100f0f;
+        font-size: 24px;
+  }
+  .input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #c9b0f0;
+    // outline: none;
+    width: 320px;
+    background: transparent;
+    color: rgb(17, 16, 16);
+    border-radius: 10px;
+
+  }
+  .todo-button {
+   
+      padding: 16px;
+      border: 2px solid #fff;
+      margin-top: 10px;
+      margin-bottom: 10px;
+     
+      
+      cursor: pointer;
+      // outline: none;
+      background: linear-gradient(
+        90deg,
+        rgb(231, 226, 241) 0%,
+        rgb(255, 215, 215) 100%
+      );
+      color: rgb(11, 11, 11);
+      text-transform: capitalize;
+      border-radius: 15px;
+
+
+     
+  }
+  .inner {
+    border: 2px solid #fff;
+    margin: 0 auto;
+
+    font-size:15px;
+    background: linear-gradient(
+      90deg,
+      rgb(249, 246, 255) 0%,
+      rgb(228, 220, 232) 100%
+    );
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+  }
+   
+  
+    .btn1{
+      float: right;
+      padding: 2px 2px 2px 2px;
+      border-radius: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+      
+      &:hover{
+        color: rgba(255, 18, 18, 0.951);
+      }
+    }
+      .btn{
+        float: right;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        
+        &:hover{
+          color: rgb(0, 255, 153);
+        }
+    }
+
+  
+}
